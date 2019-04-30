@@ -1138,7 +1138,7 @@ if( ! function_exists( 'the_conference_ed_author_link' ) ) :
      * Author link in footer
     */
     function the_conference_ed_author_link(){
-        echo '<span class="author-link">' . esc_html__( 'The Conference | Developed by ', 'the-conference' ) . '<a href="' . esc_url( 'https://raratheme.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Rara Theme', 'the-conference' ) . '</a></span>';
+        echo '<span class="author-link">' . esc_html__( 'Copyright ©2019 ', 'the-conference' ) . '<a href="' . esc_url( 'http://uad.ac.id/' ) .'" rel="nofollow" target="_blank">' . esc_html__( ' Universitas Ahmad Dahlan', 'the-conference' ) . '</a></span>';
     }
 endif;
 
@@ -1148,6 +1148,6 @@ if( ! function_exists( 'the_conference_ed_wp_link' ) ) :
     */
     function the_conference_ed_wp_link(){
         /* translators: 1: span tag, 2: WordPress link */
-        printf( esc_html__( '%1$s Powered by %2$s%3$s', 'the-conference' ), '<span class="wp-link">', '<a href="'. esc_url( __( 'https://wordpress.org/', 'the-conference' ) ) .'" target="_blank">WordPress</a>.', '</span>' );
+        //printf( esc_html__( '%1$s Powered by %2$s%3$s', 'the-conference' ), '<span class="wp-link">', '<a href="'. esc_url( __( 'https://wordpress.org/', 'the-conference' ) ) .'" target="_blank">WordPress</a>.', '</span>' );
     }
 endif;
